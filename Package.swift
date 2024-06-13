@@ -38,7 +38,7 @@ let package = Package(
             name: "AppNexusSDKTarget",
             url:
                 "https://adsdkdevstand.azureedge.net/dev/mobile/mtest/adoreleasetest/9.0.0-alpha.8/AppNexusSDKDynamic.zip",
-            checksum: "a1dfba4c70826f5a2696a2ad120ecfa44bb461984aab50335a35fd827726beec"
+            checksum: "b8d46f019ede80963b2e92e2bebfa15547287e260c4a3696999d185d6cc84098"
         ),
       .target(
          name: "ANGoogleMobileAdsTarget",
@@ -52,7 +52,7 @@ let package = Package(
     .binaryTarget(
       name: "ANGoogleMobileAds",
       url: "https://adsdkdevstand.azureedge.net/dev/mobile/mtest/adoreleasetest/9.0.0-alpha.8/ANGoogleAdapter.zip",
-     checksum: "9fd126e1ebd8d466a043ae5664c4c4c2b42d6803c8c59a09e3cb91f099d3a79b"
+     checksum: "43ce61bf1a810762fdd07c0b547bae3a7a53aa2ddc1bdfca41cb59826d501247"
     )
     ]
 )
