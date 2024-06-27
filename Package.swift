@@ -31,14 +31,14 @@ let package = Package(
         .binaryTarget(
             name: "OMSDK_Microsoft",
             url:
-                "https://adsdkdevstand.azureedge.net/dev/mobile/mtest/adoreleasetest/9.0.0-alpha.9/dynamic/OMSDK_Microsoft.zip",
-            checksum: "84bbf33d31dbfb5acdfb0b8326244ec0f7801cc7322c22a4519d8d98b08bab7b"
+                "https://adsdkdevstand.azureedge.net/dev/mobile/mtest/adoreleasetest/9.0.0-beta.3/dynamic/OMSDK_Microsoft.zip",
+            checksum: "aa8b19113ffaa1548bc40f9c8ea26037e6b09e28629deff086f50ce4ee79bd6c"
         ),
          .binaryTarget(
             name: "AppNexusSDKTarget",
             url:
-                "https://adsdkdevstand.azureedge.net/dev/mobile/mtest/adoreleasetest/9.0.0-alpha.9/dynamic/AppNexusSDKDynamic.zip",
-            checksum: "b8d46f019ede80963b2e92e2bebfa15547287e260c4a3696999d185d6cc84098"
+                "https://adsdkdevstand.azureedge.net/dev/mobile/mtest/adoreleasetest/9.0.0-beta.3/dynamic/AppNexusSDKDynamic.zip",
+            checksum: "bd8ca17902a91c5e3dc8791986da8f21bfbb41c03989f5f0620fd404bee88caa"
         ),
       .target(
          name: "ANGoogleMobileAdsTarget",
@@ -51,8 +51,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "ANGoogleMobileAds",
-      url: "https://adsdkdevstand.azureedge.net/dev/mobile/mtest/adoreleasetest/9.0.0-alpha.9/static/ANGoogleAdapter.xcframework.zip",
-     checksum: "15b7512cdfa8cf26095bfde4ecdcca38a09e3bd6527517bc757bddafc1bb9d79"
+      url: "https://adsdkdevstand.azureedge.net/dev/mobile/mtest/adoreleasetest/9.0.0-beta.3/static/ANGoogleAdapter.xcframework.zip",
+     checksum: "f7829d54423da0d70f8f1e13767954587d27aaef2c6c810752ba83bb0c0fa56e"
     )
     ]
 )
